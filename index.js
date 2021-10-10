@@ -15,10 +15,10 @@ function initMap(){
     var marker = new google.maps.Marker({position: loc1,map:gMap});
 
     var marker2 = new google.maps.Marker({position: {lat:21.17429,lng:-86.84656},map:gMap});
-    marker2.setIcon('http://maps.google.com/mapfiles/kml/pushpin/red-pushpin.png');
+    marker2.setIcon('https://maps.google.com/mapfiles/kml/pushpin/red-pushpin.png');
 
     var marker3=  new google.maps.Marker({position: loc2,map:gMap});
-    marker3.setIcon('http://maps.google.com/mapfiles/kml/pal4/icon30.png');
+    marker3.setIcon('https://maps.google.com/mapfiles/kml/pal4/icon30.png');
 
     var infoWindow = new google.maps.InfoWindow({content: 'cancun, mexico'});
     marker2.addListener('click', function(){
